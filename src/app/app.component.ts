@@ -29,6 +29,8 @@ export class AppComponent implements OnInit {
     );
   }
 
+  // Practice git
+
   public onAddEmloyee(addForm: NgForm): void {
     document.getElementById('add-employee-form')?.click();
     this.employeeService.addEmployee(addForm.value).subscribe(
